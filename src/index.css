@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-select select {
+  color: white;
+  background-color: transparent;
+}
+
+.custom-select select option {
+  color: black;
+  background-color: white;
+}
