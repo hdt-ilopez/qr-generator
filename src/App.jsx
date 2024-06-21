@@ -46,8 +46,8 @@ const App = () => {
   };
 
   return (
-    <div className="bg-gradient-to-tr from-red-500 to-blue-700 h-screen w-full flex justify-center items-center">
-      <div className=" bg-white-900 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 border border-gray-100 w-1/3 h-96 p-4">
+    <div className="bg-gradient-to-tr from-red-500 to-blue-700 h-screen w-full flex justify-center items-center p-4">
+      <div className=" bg-white-900 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 border border-gray-100 w-full md:w-1/3 h-96 p-4">
         <div className="flex justify-evenly flex-col w-full h-full items-center">
           <div className="text-center text-white">
             <h1 className=" font-bold text-center text-2xl mb-2">
